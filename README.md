@@ -1,5 +1,6 @@
 ### study-of-basic-gates
 
+
 **AIM:** 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
@@ -63,23 +64,44 @@ Y= A⊕B
 
 
 **PROGRAM**
-<img width="458" height="282" alt="image" src="https://github.com/user-attachments/assets/44619e70-3524-4c5d-bd0f-6124220df294" />
+
+```
+module EXP1(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+
+and(y1,a,b);
+or(y2,a,b);
+not(y3,a);
+nand(y4,a,b);
+nor(y5,a,b);
+xor(y6,a,b);
+xnor(y7,a,b);
+
+endmodule
+```
 
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by: RegisterNumber: 212224040034
  
 **Logic symbol & Truthtable**
-<img width="812" height="437" alt="image" src="https://github.com/user-attachments/assets/9f104751-c37c-415a-b593-8acd1deeb466" />
+
+<img width="894" height="455" alt="image" src="https://github.com/user-attachments/assets/5ab07ce9-b7c3-4bee-948b-49614c356bf7" />
+
+
 
 
 **RTL realization Output:** 
-<img width="785" height="406" alt="image" src="https://github.com/user-attachments/assets/fd8e4675-146c-48f3-a575-5de90c19292c" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/7fb38030-5eab-42f7-9f22-ffe25d6bded3" />
 
 
 **RTL**
 
+<img width="759" height="866" alt="image" src="https://github.com/user-attachments/assets/12900f97-5bf1-49dd-a2e2-7f95307a83bc" />
+
+
 **Result:**
-
-
+exceuted successfully
